@@ -1,0 +1,5 @@
+{ "manifest_version": 3, "name": null, 
+"description": null, 
+"version": 1.0, 
+"action": "popup/popup.html",  
+"default_icon": "icons/null" }

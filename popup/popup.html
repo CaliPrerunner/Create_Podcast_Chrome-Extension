@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel ="stylesheet" type="text/css" href="popup.css">
+  <meta charset="UTF-8">
+  <title>Text To Speech</title>
+</head>
+
+<header style="text-align: center;">
+  <h2>Create your own podcast</h2>
+</header>
+
+<body>
+<div id="big-container">
+
+
+  <div style="display: flex; justify-content: space-between; width: 100%;">
+
+    <select id="languages">
+        <option value="English">English - EN</option>
+      <option value="Español">Español - ES</option>
+      <option value="Русский">Русский - RU</option>
+    </select>
+
+    <button id="plusButton">+</button>
+  </div>
+
+
+  <textarea id="user-input" ></textarea>
+
+  <div id="last-row">
+    <div id="word-div">
+      <label id="word-count">Word Count</label>
+      <label id="count">0</label>
+  </div>
+    <div id="speed-buttons">
+      <button id="left-edge-speed-buttons">1x</button>
+      <button>1.25x</button>
+      <button>1.5x</button>
+      <button>1.75x</button>
+      <button id="right-edge-speed-buttons">2x</button>
+    </div>
+
+
+    <button id="playButton"style="align-self: flex-end; margin: 12px">Play</button>
+</div>
+  </div>
+
+  <script src="popup.js"></script>
+</div>
+</body>
+</html>
